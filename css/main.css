@@ -16,3 +16,18 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.text {
+  display: block;
+  float: left;
+}
