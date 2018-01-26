@@ -11,6 +11,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -19,7 +20,11 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+h1, h2 {
+  font-weight: bold;
 }
 
 .img-flex {
@@ -28,6 +33,5 @@ body {
 }
 
 .text {
-  display: block;
-  float: left;
+  float: right;
 }
